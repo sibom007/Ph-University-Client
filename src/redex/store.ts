@@ -41,3 +41,4 @@ export type AppDispatch = typeof store.dispatch;
 export const persistor = persistStore(store);
 
 export const useCurrentToken=(state:RootState)=>state.auth.token
+export const SekectCurrentUser=(state:RootState)=>state.auth.user
